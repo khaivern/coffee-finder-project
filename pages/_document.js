@@ -23,6 +23,7 @@ class MyDocument extends Document {
             as='font'
             crossOrigin='anonymous'
           />
+          <link rel='icon' href='/coffee-icon.ico' />
         </Head>
         <body>
           <Main />

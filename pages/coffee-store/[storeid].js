@@ -106,6 +106,11 @@ const CoffeeStore = ({ coffeeStore: initialCoffeeStore }) => {
     <div className={styles.layout}>
       <Head>
         <title>{name}</title>
+        <meta
+          name='description'
+          content={`Details page for ${name} coffee store`}
+        />
+        <link rel='icon' href='/coffee-icon.ico' />
       </Head>
       <div className={styles.container}>
         <div className={styles.col1}>
